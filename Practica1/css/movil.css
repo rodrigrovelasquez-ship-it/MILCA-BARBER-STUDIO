@@ -1,0 +1,100 @@
+/* ==================== ESTILOS PARA MÓVIL ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* El padding/border no afecta el tamaño total */
+}
+
+body {
+    background-image: url('../logo/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+header h1 {
+    text-align: center;
+    padding: 50px;
+    color:white
+}
+
+.nav-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+nav a { 
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.nav-lateral {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+main h2 {
+    text-align: center;
+    color:white
+}
+
+main nav a {
+    color: white;
+}
+
+main p {
+    color:white
+}
+.nav-contenido-principal {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+main h3 {
+    text-align: center;
+    color:white;
+    font-size: 1.5em;
+}
+
+.contenido-aside {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.contenido-aside h3 {
+    text-align: center;
+    color:white;
+    font-size: 1.5em;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer h4 {
+    text-align: center;
+    color:white;
+    font-size: 1.2em;
+}
