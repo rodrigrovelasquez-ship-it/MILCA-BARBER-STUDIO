@@ -86,15 +86,43 @@ main h3 {
     font-size: 1.5em;
 }
 
+.contenido-aside li {
+    color: white;
+}
+
 footer {
+    border: 2px solid red;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
 }
 
 footer h4 {
+    text-decoration: underline;
     text-align: center;
     color:white;
     font-size: 1.2em;
+}
+
+.nav-siguenos {
+    
+}
+
+footer ul {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 5px;
+}
+
+footer li{
+    margin-top: 15px;
+}
+
+footer a {
+    gap: 1rem;
+    text-decoration: none;
+
 }
